@@ -10,9 +10,11 @@
 #endif
 #include <unordered_map>
 #include <list>
+#include <cmath>
 
 using std::unordered_map;
 using std::list;
+using std::modf;
 
 struct handleid {
   list<ttf_id> text;
